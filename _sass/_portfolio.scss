@@ -32,3 +32,22 @@ header{
     }
   }
 }
+.page-content{
+  margin-top: 80px;
+  #owener-image-container{
+    padding-left: 0;
+    padding-right: 30px;
+    img{
+      border-radius: 315px;
+      -webkit-border-radius: 315px;
+      -moz-border-radius: 315px;
+    }
+  }
+  #about-container{
+    h1{
+      font-weight: bold;
+      font-size: 100px;
+    }
+  }
+}
+
