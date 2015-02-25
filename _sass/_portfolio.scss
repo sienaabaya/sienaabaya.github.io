@@ -73,12 +73,27 @@ header{
     }
     div#resume-nav{
       background-color: $orange;
+      cursor: pointer;
+    }
+    div#resume-nav:hover{
+      background-color: $darkerOrange;
+      @include background-color-transition(1s);
     }
     div#work-nav{
+      cursor: pointer;
       background-color: $brown;
     }
+    div#work-nav:hover{
+      background-color: $darkerBrown;
+      @include background-color-transition(1s);
+    }
     div#skill-nav{
+      cursor: pointer;
       background-color: $peach;
+    }
+    div#skill-nav:hover{
+      background-color: $darkerPeach;
+      @include background-color-transition(1s);
     }
   }
 }

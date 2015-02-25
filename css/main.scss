@@ -30,6 +30,9 @@ $on-laptop:        800px;
 $orange: #CC3300;
 $brown: #663333;
 $peach: #FFCC99;
+$darkerOrange: rgba(115, 29, 0, 1);
+$darkerBrown: rgba(43, 11, 0, 1);
+$darkerPeach: rgba(219, 182, 144, 1);
 
 
 
@@ -50,6 +53,13 @@ $peach: #FFCC99;
   border-radius: $size;
   -webkit-border-radius: $size;
   -moz-border-radius: $size;
+}
+
+@mixin background-color-transition($seconds){
+  -webkit-transition: background-color $seconds ease-out;
+  -moz-transition: background-color $seconds ease-out;
+  -o-transition: background-color $seconds ease-out;
+  transition: background-color $seconds ease-out;
 }
 
 
