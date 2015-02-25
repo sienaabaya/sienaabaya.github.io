@@ -1,3 +1,6 @@
+.wrapper{
+  max-width: calc(980px - (30px * 2));
+}
 header{
   margin-top: 40px;
   #owner-name{
@@ -25,10 +28,10 @@ header{
       color: #C3BFBE;
     }
     a:hover{
-      color: #61CFD3;
+      color: $orange;
     }
     a.active{
-      color: #61CFD3;
+      color: $orange;
     }
   }
 }
@@ -38,15 +41,40 @@ header{
     padding-left: 0;
     padding-right: 30px;
     img{
-      border-radius: 315px;
-      -webkit-border-radius: 315px;
-      -moz-border-radius: 315px;
+      @include border-radius(315px);
     }
   }
   #about-container{
     h1{
       font-weight: bold;
       font-size: 100px;
+    }
+  }
+
+  #about-navigation-container{
+    div{
+      @include border-radius(60px);
+      height: 120px;
+      width: 120px;
+      display: inline-block;
+      p{
+        font-size: 15px;
+        color: white;
+        margin-top: 47px;
+        text-align: center;
+      }
+    }
+    div:not(:last-child){
+      margin-right: 15px;
+    }
+    div#resume-nav{
+      background-color: $orange;
+    }
+    div#work-nav{
+      background-color: $brown;
+    }
+    div#skill-nav{
+      background-color: $peach;
     }
   }
 }

@@ -27,6 +27,10 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$orange: #CC3300;
+$brown: #663333;
+$peach: #FFCC99;
+
 
 
 // Using media queries with like this:
@@ -40,6 +44,12 @@ $on-laptop:        800px;
     @media screen and (max-width: $device) {
         @content;
     }
+}
+
+@mixin border-radius($size){
+  border-radius: $size;
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
 }
 
 
