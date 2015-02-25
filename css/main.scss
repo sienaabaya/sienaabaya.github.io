@@ -56,6 +56,9 @@ $peach: #FFCC99;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "bootstrap-compass",
+        "bootstrap-mincer",
+        "bootstrap-sprockets",
         "bootstrap.min",
         "base",
         "portfolio",
