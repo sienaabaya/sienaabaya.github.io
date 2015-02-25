@@ -2,10 +2,10 @@
     <div class="wrapper">
         <h1 id="owner-name">Siena Abaya</h1>
         <h2 class="owner-position">Software Developer</h2>
-        <nav>
-            <a href="/" target="_blank" class="active">HOME</a>
-            <a href="/" target="_blank">RESUME</a>
-            <a href="/" target="_blank">CONTACTS</a>
+        <nav ng-init="tab=1">
+            <a href="/" ng-class="{active:tab===1}" ng-click="tab=1">HOME</a>
+            <a href="/" ng-class="{active:tab===2}" ng-click="tab=2">RESUME</a>
+            <a href="/" ng-class="{active:tab===3}" ng-click="tab=3">CONTACTS</a>
         </nav>
     </div>
 </header>
