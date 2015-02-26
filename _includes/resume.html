@@ -1,3 +1,15 @@
-<div>
-    <h1>RESUME</h1>
+<div id="resume-container" >
+    <div id="work-info-section" class="col-md-8">
+        <h1>RESUME</h1>
+        {% for work in site.data.work%}
+        <div class="work-info clearfix col-md-12">
+            <div class="work-info-title col-md-4">
+                <p>{{ work.section }}</p>
+            </div>
+            <div class="work-content col-md-8">
+                {{ work.content }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </div>

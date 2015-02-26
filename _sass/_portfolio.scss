@@ -155,3 +155,39 @@ footer{
   }
 }
 
+#resume-container{
+  #work-info-section{
+    h1{
+      font-weight: bold;
+      font-size: 50px;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 20px;
+      margin-bottom: 0px;
+    }
+    .work-info{
+      padding: 20px 15px;
+      border-bottom: 1px solid #ffffff;
+      .work-info-title{
+        background-color: $orange;
+        height: 120px;
+        width: 120px;
+        color: #ffffff;
+        @include border-radius(50%);
+        display: inline-block;
+        padding: 40px 20px;
+      }
+      .work-content{
+        p.job-position, p.education-level{
+          margin-bottom: 0;
+          font-weight: 500;
+          font-size: 20px;
+        }
+        p.school-name, p.education-course{
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+}
+

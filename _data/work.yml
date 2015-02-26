@@ -1,0 +1,21 @@
+- section: Professional Info
+  content: >
+    <p>Lorem ipsum dolor sit amet, est at salutatus scriptorem, inani tibique persequeris qui ne, ei civibus maluisset usu. In tota rebum omnesque quo. In eirmod conclusionemque vix, cum in quis placerat. Ius ei inani voluptatum reformidans. Ea mea aeque populo tibique, te iriure delicata definitiones ius, harum quaestio eu nam. Diceret albucius legendos id duo, vel dico adhuc debet ad, delenit omittam eu vel.</p>
+- section: Work Experience
+  content: >
+    <p class="job-position">Junoir Software Engineer</p>
+    <p class="job-year">2013-present</p>
+- section: Education
+  content: >
+    <p class="education-level">Tertiary</p>
+    <p class="school-name">Saint Louis University, Baguio City</p>
+    <p class="education-course">Bachelor of Science in Information Technology</p>
+    <p class="education-year">2009-2013</p>
+    <br>
+    <p class="school-name">Saint Louis University, Baguio City</p>
+    <p class="education-course">Bachelor of Science in Nursing</p>
+    <p class="education-year">2008-2009</p>
+    <br>
+    <p class="education-level">Secondary</p>
+    <p class="school-name">Saint Joseph Institute, Candon City</p>
+    <p class="education-year">2004-2008</p>
