@@ -1,6 +1,6 @@
 <div id="resume-container" >
+    <h1 class="col-md-12">RESUME</h1>
     <div id="work-info-section" class="col-md-8">
-        <h1>RESUME</h1>
         {% for work in site.data.work%}
         <div class="work-info clearfix col-md-12">
             <div class="work-info-title col-md-4">
@@ -11,5 +11,18 @@
             </div>
         </div>
         {% endfor %}
+    </div>
+    <div id="language-section" class="col-md-4">
+        <div class="language-icon">
+            <i class="fa fa-language"></i>
+        </div>
+        <div class="language-label">
+            Languages
+        </div>
+        <div class="languages">
+            {% for language in site.data.languages %}
+            <p>{{ language.name | upcase }}</p>
+            {% endfor %}
+        </div>
     </div>
 </div>
